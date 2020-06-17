@@ -9,11 +9,10 @@
         <module>core</module>
         <module>app</module>
     </modules>
-    <scm>
-        <connection>scm:https://github.com/EereshM/maven-multi-module-example.git</connection>
-        <url>https://github.com/EereshM/maven-multi-module-example.git</url>
-        <developerConnection>scm:https://github.com/EereshM/maven-multi-module-example.git</developerConnection>
-    </scm>
+   <scm>
+    <developerConnection>scm:svn:https://github.com/EereshM/maven-multi-module-example.git</developerConnection>
+  </scm>
+    
     <distributionManagement>
 		<snapshotRepository>
 		<id>nexus</id>
