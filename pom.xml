@@ -9,4 +9,26 @@
         <module>core</module>
         <module>app</module>
     </modules>
+    <scm>
+        <connection>scm:svn:https://svn.mycompany.com/repos/myapplication/trunk/mycomponent/</connection>
+        <url></url>
+        <developerConnection></developerConnection>
+    </scm>
+    <distributionManagement>
+		<snapshotRepository>
+			<id>nexus</id>
+			<url>http://3.23.102.227:8081/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+    
+    <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.0.0-M1</version>
+      </plugin>
+    </plugins>
+    ...
+  </build>
 </project>
