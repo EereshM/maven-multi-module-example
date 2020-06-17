@@ -10,9 +10,9 @@
         <module>app</module>
     </modules>
     <scm>
-        <connection>scm:svn:https://svn.mycompany.com/repos/myapplication/trunk/mycomponent/</connection>
-        <url></url>
-        <developerConnection></developerConnection>
+        <connection>scm:https://github.com/EereshM/maven-multi-module-example.git</connection>
+        <url>https://github.com/EereshM/maven-multi-module-example.git</url>
+        <developerConnection>scm:git:https://github.com/EereshM/maven-multi-module-example.git</developerConnection>
     </scm>
     <distributionManagement>
 		<snapshotRepository>
