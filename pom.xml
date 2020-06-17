@@ -16,11 +16,10 @@
     </scm>
     <distributionManagement>
 		<snapshotRepository>
-			<id>nexus</id>
-			<url>http://3.23.102.227:8081/nexus/content/repositories/snapshots</url>
+		<id>nexus</id>
+		<url>http://3.23.102.227:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
-    
     <build>
     <plugins>
       <plugin>
@@ -29,6 +28,5 @@
         <version>3.0.0-M1</version>
       </plugin>
     </plugins>
-    ...
   </build>
 </project>
