@@ -17,10 +17,14 @@
   </scm>
     
     <distributionManagement>
-		<snapshotRepository>
-		<id>nexus</id>
-		<url>http://18.220.180.254:8081/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
+	     <snapshotRepository>
+        	<id>nexus</id>
+         	<url>http://15.206.134.180:8081/nexus/content/repositories/snapshots</url>
+             </snapshotRepository>
+        	<repository>
+        	    	<id>nexus</id>
+        		<url>http://18.220.180.254:8081/nexus/content/repositories/releases</url>
+        	</repository>
 	</distributionManagement>
     <build>
     <plugins>
